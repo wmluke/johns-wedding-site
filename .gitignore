@@ -69,3 +69,5 @@ config.js
 
 # Coverage reports
 coverage.html
+
+.DS_Store

@@ -1,0 +1,1 @@
+jQuery(document).ready(function(){jQuery(".wp-caption").width(function(){return jQuery('img',this).width();});jQuery('a.nimbus_tooltip').tooltip();jQuery('.nimbus_popover').popover();});

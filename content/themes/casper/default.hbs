@@ -1,42 +1,552 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-US">
 <head>
     {{! Document Settings }}
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 
     {{! Page Meta }}
     <title>{{meta_title}}</title>
-    <meta name="description" content="{{meta_description}}" />
+    <meta name="description" content="{{meta_description}}"/>
+    <meta name='keywords' content="{{meta_keywords}}"/>
 
-    <meta name="HandheldFriendly" content="True" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="HandheldFriendly" content="True"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
     <link rel="shortcut icon" href="{{asset "favicon.ico"}}">
 
-    {{! Styles'n'Scripts }}
-    <link rel="stylesheet" type="text/css" href="{{asset "css/screen.css"}}" />
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400" />
+    <link rel='stylesheet' id='wp-pagenavi-css' href='{{asset "css/pagenavi-css.css"}}' type='text/css' media='all'/>
+    <link rel='stylesheet' id='bootstrap-css' href='{{asset "css/bootstrap.min.css"}}' type='text/css' media='all'/>
+    <link rel='stylesheet' id='font-awesome-css' href='//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css?ver=4.0.3' type='text/css' media='all'/>
+    <link rel='stylesheet' id='nimbus-wedding-css' href='{{asset "css/style.css"}}' type='text/css' media='all'/>
+    <link rel='stylesheet' id='shortcode_css-css' href='{{asset "css/shortcodes.css"}}' type='text/css' media='all'/>
 
-    {{! Ghost outputs important style and meta data with this tag }}
-    {{ghost_head}}
+    <link rel='canonical' href='http://lindsayandjohngetmarried.com/'/>
+    <link rel='shortlink' href='http://lindsayandjohngetmarried.com/'/>
+
+    <script type='text/javascript' src='{{asset "js/jquery.js"}}'></script>
+    <script type='text/javascript' src='{{asset "js/jquery-migrate.min.js"}}'></script>
+    <script type='text/javascript' src='{{asset "js/retina.min.js"}}'></script>
+    <script type='text/javascript' src='{{asset "js/bootstrap.min.js"}}'></script>
+    <script type='text/javascript' src='{{asset "js/jquery.bxslider.min.js"}}'></script>
+    <script type='text/javascript' src='{{asset "js/jquery.spinner.js"}}'></script>
+    <script type='text/javascript' src='{{asset "js/functions.js"}}'></script>
+    <script type='text/javascript' src='{{asset "js/shortcodes.js"}}'></script>
+    <!--[if lt IE 9]>
+    <script src='{{asset "js/html5shiv.js"}}'></script>
+    <script src='{{asset "js/respond.min.js"}}'></script>
+    <![endif]-->
+    <script type="text/javascript">
+        jQuery(document).ready(function () {
+            jQuery('.bxslider').bxSlider({
+                minSlides: 3,
+                maxSlides: 3,
+                slideWidth: 285,
+                slideMargin: 30,
+                controls: false
+            });
+        });
+    </script>
+    <link rel='stylesheet' id='nimbus-fonts-1-css' href='//fonts.googleapis.com/css?family=Copse:400,700' type='text/css' media='all'/>
+    <link rel='stylesheet' id='nimbus-fonts-2-css' href='//fonts.googleapis.com/css?family=Dancing+Script:400,700' type='text/css' media='all'/>
+
+    <link href='http://fonts.googleapis.com/css?family=Dancing+Script:400,700' rel='stylesheet' type='text/css'/>
+    <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'/>
+
+    <style type="text/css">
+        body {
+            background: #fff;
+            font-family: 'Copse', serif;
+            font-size: 15px;
+            color: #333333;
+        }
+
+        a, a:visited, .archive_title a, .archive_title a:visited {
+            color: #A4302E;
+        }
+
+        a:hover, .archive_title a:hover {
+            color:;
+        }
+
+        h1, h1 a {
+            font: 400 30px/1em 'Copse', serif;
+            color: #666666;
+            text-transform: none;
+        }
+
+        h1 a:hover {
+            color: #535353;
+        }
+
+        h2, h2 a {
+            font: 400 24px/1em 'Copse', serif;
+            color: #666666;
+            text-transform: none;
+        }
+
+        h2 a:hover {
+            color: #535353;
+        }
+
+        h3, h3 a {
+            font: 400 21px/1em 'Copse', serif;
+            color: #666666;
+            text-transform: none;
+        }
+
+        h3 a:hover {
+            color: #535353;
+        }
+
+        h4, h4 a {
+            font: 400 19px/1em 'Copse', serif;
+            color: #666666;
+            text-transform: none;
+        }
+
+        h4 a:hover {
+            color: #535353;
+        }
+
+        h5, h5 a {
+            font: 400 17px/1em 'Copse', serif;
+            color: #666666;
+            text-transform: none;
+        }
+
+        h5 a:hover {
+            color: #535353;
+        }
+
+        h6, h6 a {
+            font: 400 15px/1em 'Copse', serif;
+            color: #666666;
+            text-transform: none;
+        }
+
+        h6 a:hover {
+            color: #535353;
+        }
+
+        .post-details .single_meta {
+            font-size: 13px font-family : 'Droid Sans', sans-serif;
+        }
+
+        .post-details .single_tags {
+            font-size: 13px;
+            font-family: 'Droid Sans', sans-serif text-align : center;
+        }
+
+        blockquote {
+            background: url({{asset "img/quote-left.png"}}) no-repeat 0 center;
+        }
+
+        blockquote p {
+            font-size: 24px;
+            color: #A4302E;
+            font-family: 'Dancing Script', cursive
+        }
+
+        .pullquote_left p, .pullquote_right p {
+            font: 400 24px/1.3em 'Dancing Script', cursive;
+            color: #A4302E;
+            text-transform: none;
+        }
+
+        code, pre, var {
+            font-family: 'Courier New', Courier, monospace;
+            color: #121212;
+        }
+
+        th, ul.css-tabs a, div.accordion h2, h2.hide_show_title span {
+            font: 400 15px/1em 'Copse', serif;
+            color: #333333;
+            text-transform: none;
+        }
+
+        td, td a, td a:hover {
+            font: 400 15px/1em 'Copse', serif;
+            color: #333333;
+            text-transform: none;
+        }
+
+        caption {
+            font: 400 15px/1em 'Copse', serif;
+            color: #333333;
+            text-transform: none;
+        }
+
+        .widget .widget-head {
+            text-align: center;
+            color:;
+            font-size: 22px;
+            font-family: 'Copse', serif;
+            margin: 0 0 20px;
+            background: url({{asset "img/grey-line.png"}}) repeat-x 0 center;
+            text-transform: none;
+            font-weight: 400;
+        }
+
+        .widget ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            color:;
+            font-size: 15px;
+            font-family: 'Copse', serif
+        }
+
+        .widget ul li {
+            margin-bottom: 5px;
+            text-align: center;
+            color:;
+            font-size: 15px;
+            font-family: 'Copse', serif
+        }
+
+        .widget {
+            color:;
+            font-size: 15px;
+            font-family: 'Copse', serif
+        }
+
+        #copy, #credit, #copy a, #credit a {
+            font-size: 12px;
+            color: #E8B2B1;
+            text-decoration: none;
+            padding: 0px;
+            margin: 0px;
+        }
+
+        button, input[type="submit"], input[type="reset"], #comment-submit {
+            font-family: 'Copse', serif;
+            padding: 11px 25px;
+            color: #FFFFFF;
+            font-size: 19px;
+            border: none;
+            background: #A4302E;
+            background: -moz-linear-gradient(top, #A4302E 0%, #822725 100%);
+            background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #A4302E), color-stop(100%, #822725));
+            background: -webkit-linear-gradient(top, #A4302E 0%, #822725 100%);
+            background: -o-linear-gradient(top, #A4302E 0%, #822725 100%);
+            background: -ms-linear-gradient(top, #A4302E 0%, #822725 100%);
+            background: linear-gradient(to bottom, #A4302E 0%, #822725 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#A4302E', endColorstr='#822725', GradientType=0);
+            -webkit-box-shadow: 0 12px 20px -7px rgba(0, 0, 0, .3);
+            box-shadow: 0 12px 20px -7px rgba(0, 0, 0, .3);
+        }
+
+        .btn-submit {
+            font-family: 'Copse', serif;
+            padding: 11px 25px;
+            color: #FFFFFF;
+            font-size: 19px;
+            border: none;
+            background: #A4302E;
+            background: -moz-linear-gradient(top, #A4302E 0%, #822725 100%);
+            background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #A4302E), color-stop(100%, #822725));
+            background: -webkit-linear-gradient(top, #A4302E 0%, #822725 100%);
+            background: -o-linear-gradient(top, #A4302E 0%, #822725 100%);
+            background: -ms-linear-gradient(top, #A4302E 0%, #822725 100%);
+            background: linear-gradient(to bottom, #A4302E 0%, #822725 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#A4302E', endColorstr='#822725', GradientType=0);
+            -webkit-box-shadow: 0 12px 20px -7px rgba(0, 0, 0, .3);
+            box-shadow: 0 12px 20px -7px rgba(0, 0, 0, .3);
+        }
+
+        #submit_rsvp_button {
+            font-family: 'Copse', serif;
+            padding: 10px 25px;
+            width: 100%;
+            color: #FFFFFF;
+            font-size: 19px;
+            border: none;
+            background: #A4302E;
+            background: -moz-linear-gradient(top, #A4302E 0%, #822725 100%);
+            background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #A4302E), color-stop(100%, #822725));
+            background: -webkit-linear-gradient(top, #A4302E 0%, #822725 100%);
+            background: -o-linear-gradient(top, #A4302E 0%, #822725 100%);
+            background: -ms-linear-gradient(top, #A4302E 0%, #822725 100%);
+            background: linear-gradient(to bottom, #A4302E 0%, #822725 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#A4302E', endColorstr='#822725', GradientType=0);
+            -webkit-box-shadow: 0 12px 20px -7px rgba(0, 0, 0, .3);
+            box-shadow: 0 12px 20px -7px rgba(0, 0, 0, .3);
+        }
+
+        .badge_one {
+            font-size: 27px;
+            font-family: 'Copse', serif;
+            color: #FFFFFF;
+            text-transform: none;
+        }
+
+        .badge_two {
+            font-size: 45px;
+            font-family: 'Dancing Script', cursive;
+            color: #FFFFFF;
+            text-transform: none;
+        }
+
+        .badge_three {
+            font-size: 27px;
+            font-family: 'Copse', serif;
+            color: #FFFFFF;
+            text-transform: none;
+        }
+
+        @media (max-width: 1199px) {
+            .badge_small {
+                font-size: 18px;
+            }
+
+            .badge_large {
+                font-size: 28px;
+            }
+
+            .badge_one {
+                padding: 0 0 10px 0;
+            }
+
+            .badge_two {
+                padding: 0px 0 18px 0
+            }
+
+            .badge_three {
+                padding: 0 0 10px 0;
+            }
+
+            #submit_rsvp_button {
+                padding: 13px 25px;
+                font-size: 16px;
+            }
+
+            blockquote {
+                margin-left: 70px;
+                margin-right: 70px;
+            }
+        }
+
+        @media (max-width: 991px) {
+        }
+
+        @media (max-width: 767px) {
+            .badge_small {
+                font-size: 14px;
+            }
+
+            .badge_large {
+                font-size: 24px;
+            }
+
+            .badge_one {
+                padding: 0 0 8px 0;
+            }
+
+            .badge_two {
+                padding: 0 0 14px 0;
+            }
+
+            .badge_three {
+                padding: 0 0 8px 0;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .badge_small {
+                font-size: 12px;
+            }
+
+            .badge_large {
+                font-size: 20px;
+            }
+
+            .badge_one {
+                padding: 0 0 8px 0;
+            }
+
+            .badge_two {
+                padding: 0 0 14px 0;
+            }
+
+            .badge_three {
+                padding: 0 0 8px 0;
+            }
+        }
+
+        @media (max-width: 767px) {
+        }
+
+        @media (min-width: 768px) and (max-width: 979px) {
+        }
+
+        @media (min-width: 980px)and (max-width: 1200px) {
+        }
+
+        @media (min-width: 1200px) {
+        }
+    </style>
+
+    <style type="text/css">
+        .recentcomments a {
+            display: inline !important;
+            padding: 0 !important;
+            margin: 0 !important;
+        }
+    </style>
 </head>
-<body class="{{body_class}}">
+<body class="home page page-id-2 page-template-default" id="skrollr-body">
+<div class="navbar navbar-main" role="navigation">
+    <div class="container">
+        <div class="navbar-body">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul id="menu-menu-1" class="nav navbar-nav">
+                    <li id="menu-item-86" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-86 active">
+                        <a href="/">Welcome</a>
+                    </li>
+                    <li id="menu-item-85" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-85">
+                        <a href="/about-us/">About Us</a>
+                    </li>
+                    <li id="menu-item-80" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-80">
+                        <a href="/wedding-details/">Wedding Details</a>
+                    </li>
+                    <li id="menu-item-80" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-80">
+                        <a href="/wedding-party/">Wedding Party</a>
+                    </li>
+                    <li id="menu-item-80" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-80">
+                        <a href="/accommodations/">Accommodations</a>
+                    </li>
+                    <li id="menu-item-80" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-80">
+                        <a href="/registry/">Registry</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="banner">
+    <img src='{{asset "img/wedding31.jpg"}}' class="img-responsive" alt=""/>
 
-    {{! Everything else gets inserted here }}
-    {{{body}}}
+    <div class="banner_line"></div>
+    <div id="badge_wrap">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-md-offset-4">
+                    <div class="fp_constrain_l">
+                        <div class="circle-text">
+                            <div>
+                                <span class="badge_small badge_one">Lindsay &amp; John</span>
+                                <br/>
+                                <img src='{{asset "img/heart_line.png"}}' class="img-responsive heart_line" alt=""/>
+                                <br/>
+                                <span class="badge_large badge_two">Lorem ipsum 15</span>
+                                <br/>
+                                <img src='{{asset "img/heart_line.png"}}' class="img-responsive heart_line" alt=""/>
+                                <br/>
+                                <span class="badge_small badge_three">Save the Date!</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row_even" id="frontpage_2coltext">
+    <div id="fp_bios_wrap" class="container fp_wrap">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="fp_constrain_l">
+                    <h2 class="text-center dancing">Lindsay West</h2>
 
-    <footer class="site-footer clearfix">
-         <section class="copyright"><a href="{{@blog.url}}">{{@blog.title}}</a> &copy; {{date format="YYYY"}}</section>
-         <section class="poweredby">Proudly published with <a href="https://ghost.org">Ghost</a></section>
-    </footer>
+                    <p>Lorem ipsum dolor sit amet, at nibh dicta lobortis sea, sea indoctum consequat eu. Ne dolore persequeris qui, ad eam illud aeque abhorreant. Nam eu quaeque maluisset, at duo regione antiopam. Purto ubique delenit eum te, at cum porro laudem iuvaret.</p>
 
-    {{! Ghost outputs important scripts and data with this tag }}
-    {{ghost_foot}}
+                    <p>Illud illum te est, at mei vocent nostrum corrumpit. Eum no reque deserunt. Quod deterruisset eu qui, ea tale delicata eum. An per dico oportere iudicabit, nec te nihil impetus.</p>
 
-    {{! The main JavaScript file for Casper }}
-    <script type="text/javascript" src="{{asset "js/jquery.fitvids.js"}}"></script>
-    <script type="text/javascript" src="{{asset "js/index.js"}}"></script>
+                    <p>Sea enim accusamus cu, usu ea iusto persecuti. Mei minim persius ne, eum ex inani aperiri euismod. Has eu oratio eruditi saperet, suas impedit laboramus ex duo. Facer oporteat ne vix, id nec aperiri efficiendi.</p>
 
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="fp_constrain_r">
+                    <h2 class="text-center second_heading dancing">John Bunselmeyer</h2>
+
+                    <p>Lorem ipsum dolor sit amet, at nibh dicta lobortis sea, sea indoctum consequat eu. Ne dolore persequeris qui, ad eam illud aeque abhorreant. Nam eu quaeque maluisset, at duo regione antiopam. Purto ubique delenit eum te, at cum porro laudem iuvaret.</p>
+
+                    <p>Illud illum te est, at mei vocent nostrum corrumpit. Eum no reque deserunt. Quod deterruisset eu qui, ea tale delicata eum. An per dico oportere iudicabit, nec te nihil impetus.</p>
+
+                    <p>Sea enim accusamus cu, usu ea iusto persecuti. Mei minim persius ne, eum ex inani aperiri euismod. Has eu oratio eruditi saperet, suas impedit laboramus ex duo. Facer oporteat ne vix, id nec aperiri efficiendi.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row_odd" id="frontpage_locationlodging">
+    <div id="fp_featured_page_1_wrap" class="container fp_wrap">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="fp_constrain_l">
+                    <h2 class="text-center dancing">Wedding Details</h2>
+                    <a href="/wedding-details/"><img src='{{asset "img/cake-265x165.jpg"}}' class="img-responsive framed" alt="Location"/></a>
+
+                    <p>Lorem ipsum dolor sit amet, at nibh dicta lobortis sea, sea indoctum consequat eu. Ne dolore persequeris qui, ad eam illud aeque abhorreant. Nam eu quaeque maluisset, at duo regione antiopam. Purto ubique delenit eum te, at cum porro laudem iuvaret.</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="fp_constrain_r">
+                    <h2 class="text-center second_heading dancing">Wedding Party</h2>
+                    <a href="/wedding-party/"><img src='{{asset "img/location-luggage-265x165.jpg"}}' class="img-responsive framed" alt="Lodging"/></a>
+
+                    <p>Lorem ipsum dolor sit amet, at nibh dicta lobortis sea, sea indoctum consequat eu. Ne dolore persequeris qui, ad eam illud aeque abhorreant. Nam eu quaeque maluisset, at duo regione antiopam. Purto ubique delenit eum te, at cum porro laudem iuvaret.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row_even" id="frontpage_honeymoongiftreg">
+    <div id="fp_featured_page_2_wrap" class="container fp_wrap">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="fp_constrain_l">
+                    <h2 class="text-center second_heading dancing">Accommodations</h2>
+                    <a href="accommodations/"><img src='{{asset "img/location-luggage-265x165.jpg"}}' class="img-responsive framed" alt="Lodging"/></a>
+
+                    <p>Lorem ipsum dolor sit amet, at nibh dicta lobortis sea, sea indoctum consequat eu. Ne dolore persequeris qui, ad eam illud aeque abhorreant. Nam eu quaeque maluisset, at duo regione antiopam. Purto ubique delenit eum te, at cum porro laudem iuvaret.</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="fp_constrain_r">
+                    <h2 class="text-center second_heading dancing">Gift Registry</h2>
+                    <a href="registry/"><img src='{{asset "img/cake-265x165.jpg"}}' class="img-responsive framed" alt="Gift Registry"/></a>
+
+                    <p>Lorem ipsum dolor sit amet, at nibh dicta lobortis sea, sea indoctum consequat eu. Ne dolore persequeris qui, ad eam illud aeque abhorreant. Nam eu quaeque maluisset, at duo regione antiopam. Purto ubique delenit eum te, at cum porro laudem iuvaret.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <p id="copy">&copy; 2014, Lindsay & John Bunselmeyer</p>
+            </div>
+            <div class="col-md-6">
+                <p id="credit"><a href="http://www.nimbusthemes.com/wordpress-themes/my-wedding/">My Wedding Theme</a> powered by <a href="https://ghost.org/">Ghost</a></p>
+            </div>
+        </div>
+    </div>
+</footer>
 </body>
 </html>
+
+
+
