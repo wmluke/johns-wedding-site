@@ -3,7 +3,7 @@ title: Lindsay & John Get Married
 email: webmaster@lindsayandjohngetmarried.com
 description: > # this means to ignore newlines until "baseurl:"
   Lindsay West & John Bunselmeyer Get Married!
-baseurl: "" # the subpath of your site, e.g. /blog/
+baseurl: "/johns-wedding-site" # the subpath of your site, e.g. /blog/
 url: "http://lindsayandjohngetmarried.com" # the base hostname & protocol for your site
 twitter_username: wmluke
 github_username:  wmluke
