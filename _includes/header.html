@@ -12,22 +12,22 @@
             <div class="navbar-collapse collapse">
                 <ul id="menu-menu-1" class="nav navbar-nav">
                     <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-86 active">
-                        <a href="/">Welcome</a>
+                        <a href='{{ "/" | prepend:  site.baseurl }}'>Welcome</a>
                     </li>
                     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-85">
-                        <a href="/about-us/">About Us</a>
+                        <a href='{{ "/about-us/" | prepend: site.baseurl }}'>About Us</a>
                     </li>
                     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-80">
-                        <a href="/wedding-details/">Wedding Details</a>
+                        <a href='{{ "/wedding-details/" | prepend: site.baseurl }}'>Wedding Details</a>
                     </li>
                     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-80">
-                        <a href="/wedding-party/">Wedding Party</a>
+                        <a href='{{ "/wedding-party/" | prepend: site.baseurl }}'>Wedding Party</a>
                     </li>
                     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-80">
-                        <a href="/accommodations/">Accommodations</a>
+                        <a href='{{ "/accommodations/" | prepend: site.baseurl }}'>Accommodations</a>
                     </li>
                     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-80">
-                        <a href="/registry/">Registry</a>
+                        <a href='{{ "/registry/" | prepend: site.baseurl }}'>Registry</a>
                     </li>
                 </ul>
             </div>
@@ -47,11 +47,11 @@
                             <div>
                                 <span class="badge_small badge_one">Lindsay &amp; John</span>
                                 <br/>
-                                <img src='{{ "/assets/img/heart_line.png"}}' class="img-responsive heart_line" alt=""/>
+                                <img src='{{ "/assets/img/heart_line.png" | prepend: site.baseurl }}' class="img-responsive heart_line" alt=""/>
                                 <br/>
                                 <span class="badge_large badge_two">{{ site.data.wedding.date }}</span>
                                 <br/>
-                                <img src='{{ "/assets/img/heart_line.png"}}' class="img-responsive heart_line" alt=""/>
+                                <img src='{{ "/assets/img/heart_line.png" | prepend: site.baseurl }}' class="img-responsive heart_line" alt=""/>
                                 <br/>
                                 <span class="badge_small badge_three">Save the Date!</span></div>
                         </div>
