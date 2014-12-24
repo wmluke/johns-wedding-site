@@ -2,22 +2,73 @@
 layout: default
 ---
 
-<div class="home">
+<div class="row_even">
+    <div id="fp_bios_wrap" class="container fp_wrap">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="fp_constrain_l">
+                    <h2 class="text-center dancing">{{ site.data.wedding.bride }}</h2>
 
-  <h1 class="page-heading">Posts</h1>
+                    <p>Lorem ipsum dolor sit amet, at nibh dicta lobortis sea, sea indoctum consequat eu. Ne dolore persequeris qui, ad eam illud aeque abhorreant. Nam eu quaeque maluisset, at duo regione antiopam. Purto ubique delenit eum te, at cum porro laudem iuvaret.</p>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+                    <p>Illud illum te est, at mei vocent nostrum corrumpit. Eum no reque deserunt. Quod deterruisset eu qui, ea tale delicata eum. An per dico oportere iudicabit, nec te nihil impetus.</p>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="fp_constrain_r">
+                    <h2 class="text-center second_heading dancing">{{ site.data.wedding.groom }}</h2>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+                    <p>Lorem ipsum dolor sit amet, at nibh dicta lobortis sea, sea indoctum consequat eu. Ne dolore persequeris qui, ad eam illud aeque abhorreant. Nam eu quaeque maluisset, at duo regione antiopam. Purto ubique delenit eum te, at cum porro laudem iuvaret.</p>
 
+                    <p>Illud illum te est, at mei vocent nostrum corrumpit. Eum no reque deserunt. Quod deterruisset eu qui, ea tale delicata eum. An per dico oportere iudicabit, nec te nihil impetus.</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row_odd">
+    <div id="fp_featured_page_1_wrap" class="container fp_wrap">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="fp_constrain_l">
+                    <h2 class="text-center dancing">Wedding Details</h2>
+                    <a href="/wedding-details/"><img src='{{ "/assets/img/cake-265x165.jpg"}}' class="img-responsive framed" alt="Location"/></a>
+
+                    <p>{{ site.data.wedding.excerpts.weddingDetails}}</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="fp_constrain_r">
+                    <h2 class="text-center second_heading dancing">Wedding Party</h2>
+                    <a href="/wedding-party/"><img src='{{ "/assets/img/location-luggage-265x165.jpg"}}' class="img-responsive framed" alt="Lodging"/></a>
+
+                    <p>{{ site.data.wedding.excerpts.weddingParty}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row_even">
+    <div id="fp_featured_page_2_wrap" class="container fp_wrap">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="fp_constrain_l">
+                    <h2 class="text-center second_heading dancing">Accommodations</h2>
+                    <a href="accommodations/"><img src='{{ "/assets/img/location-luggage-265x165.jpg"}}' class="img-responsive framed" alt="Lodging"/></a>
+
+                    <p>{{ site.data.wedding.excerpts.accommodations}}</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="fp_constrain_r">
+                    <h2 class="text-center second_heading dancing">Gift Registry</h2>
+                    <a href="registry/"><img src='{{ "/assets/img/cake-265x165.jpg"}}' class="img-responsive framed" alt="Gift Registry"/></a>
+
+                    <p>{{ site.data.wedding.excerpts.registry}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
