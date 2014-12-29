@@ -4,7 +4,7 @@ title: Accommodations
 permalink: /accommodations/
 ---
 
-FOO BAR
+FOO
 
 Lorem ipsum dolor sit amet, at nibh dicta lobortis sea, sea indoctum consequat eu. Ne dolore persequeris qui, ad eam illud aeque abhorreant. Nam eu quaeque maluisset, at duo regione antiopam. Purto ubique delenit eum te, at cum porro laudem iuvaret.
 
