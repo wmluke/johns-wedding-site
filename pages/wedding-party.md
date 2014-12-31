@@ -4,9 +4,25 @@ title: Wedding Party
 permalink: /wedding-party/
 ---
 
-Lorem ipsum dolor sit amet, at nibh dicta lobortis sea, sea indoctum consequat eu. Ne dolore persequeris qui, ad eam illud aeque abhorreant. Nam eu quaeque maluisset, at duo regione antiopam. Purto ubique delenit eum te, at cum porro laudem iuvaret.
+## Bridesmaids
+![alt text](/assets/img/cake-265x165.jpg "Title")
+Melissa West - Maid of Honor  
+Dana Chehansky  
+Audra O'Connor  
+Hais Lindeman  
+Shirin Delalat  
+Jennifer Coleman  
+Rachel Murray  
 
-Illud illum te est, at mei vocent nostrum corrumpit. Eum no reque deserunt. Quod deterruisset eu qui, ea tale delicata eum. An per dico oportere iudicabit, nec te nihil impetus.
+## Groomsmen
+Luke Bunselmeyer - Best Man  
+Andrew Viray  
+Garrett Elwood  
+Jarid Waltz  
+Andy Stevens  
+Paolo Mauro  
+Chris Damitz
 
-Sea enim accusamus cu, usu ea iusto persecuti. Mei minim persius ne, eum ex inani aperiri euismod. Has eu oratio eruditi saperet, suas impedit laboramus ex duo. Facer oporteat ne vix, id nec aperiri efficiendi.
-
+## Sponsors
+Ryan West  
+Leah Reilman
