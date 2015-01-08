@@ -21,19 +21,19 @@ Jennifer Coleman
 Rachel Murray  
 
 ## Groomsmen
-![Luke Bunselmeyer - Best Man]({{ site.baseurl }}/assets/img/Luke.jpg "Luke Bunselmeyer - Best Man")  
+![Luke Bunselmeyer - Best Man]({{ site.baseurl }}/assets/img/Luke.JPG "Luke Bunselmeyer - Best Man")  
 Luke Bunselmeyer - Best Man  
 ![Andrew Viray]({{ site.baseurl }}/assets/img/Andrew.jpg "Andrew Viray")  
 Andrew Viray  
-![Garrett Elwood]({{ site.baseurl }}/assets/img/Garrett.jpg "Garrett Elwood")  
+![Garrett Elwood]({{ site.baseurl }}/assets/img/Garrett.JPG "Garrett Elwood")  
 Garrett Elwood  
-![Jarid Waltz]({{ site.baseurl }}/assets/img/Jarid.jpg "Jarid Waltz")  
+![Jarid Waltz]({{ site.baseurl }}/assets/img/Jarid.JPG "Jarid Waltz")  
 Jarid Waltz  
-![Andy Stevens]({{ site.baseurl }}/assets/img/Andy.jpg "Andy Stevens")  
+![Andy Stevens]({{ site.baseurl }}/assets/img/Andy.JPG "Andy Stevens")  
 Andy Stevens  
-![Paolo Mauro]({{ site.baseurl }}/assets/img/Paolo.jpg "Paolo Mauro")  
+![Paolo Mauro]({{ site.baseurl }}/assets/img/Paolo.JPG "Paolo Mauro")  
 Paolo Mauro  
-![Chris Damitz]({{ site.baseurl }}/assets/img/Chris.jpg "Chris Damitz")  
+![Chris Damitz]({{ site.baseurl }}/assets/img/Chris.JPG "Chris Damitz")  
 Chris Damitz
 
 ## Sponsors
