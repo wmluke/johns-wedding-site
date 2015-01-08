@@ -5,39 +5,39 @@ permalink: /wedding-party/
 ---
 
 ## Bridesmaids
-![alt text](/assets/img/Melissa.jpg "Title")
+![Melissa West - Maid of Honor]({{ site.url }}/assets/img/Melissa.jpg "Melissa West - Maid of Honor")
 Melissa West - Maid of Honor  
-![alt text](/assets/img/Dana.jpg "Title")  
+![Dana Chehansky]({{ site.url }}/assets/img/Dana.jpg "Dana Chehansky")  
 Dana Chehansky  
-![alt text](/assets/img/Audra.jpg "Title")  
+![Audra O'Connor]({{ site.url }}/assets/img/Audra.jpg "Audra O'Connor")  
 Audra O'Connor  
-![alt text](/assets/img/Hais.jpg "Title")  
+![Hais Lindeman]({{ site.url }}/assets/img/Hais.jpg "Hais Lindeman")  
 Hais Lindeman  
-![alt text](/assets/img/Shirin.jpg "Title")  
+![Shirin Delalat]({{ site.url }}/assets/img/Shirin.jpg "Shirin Delalat")  
 Shirin Delalat  
-![alt text](/assets/img/Jennifer.jpg "Title")  
+![Jennifer Coleman]({{ site.url }}/assets/img/Jennifer.jpg "Jennifer Coleman")  
 Jennifer Coleman  
-![alt text](/assets/img/Rachel.jpg "Title")  
+![Rachel Murray]({{ site.url }}/assets/img/Rachel.jpg "Rachel Murray")  
 Rachel Murray  
 
 ## Groomsmen
-![alt text](/assets/img/Luke.jpg "Title")  
+![Luke Bunselmeyer - Best Man]({{ site.url }}/assets/img/Luke.jpg "Luke Bunselmeyer - Best Man")  
 Luke Bunselmeyer - Best Man  
-![alt text](/assets/img/Andrew.jpg "Title")  
+![Andrew Viray]({{ site.url }}/assets/img/Andrew.jpg "Andrew Viray")  
 Andrew Viray  
-![alt text](/assets/img/Garrett.jpg "Title")  
+![Garrett Elwood]({{ site.url }}/assets/img/Garrett.jpg "Garrett Elwood")  
 Garrett Elwood  
-![alt text](/assets/img/Jarid.jpg "Title")  
+![Jarid Waltz]({{ site.url }}/assets/img/Jarid.jpg "Jarid Waltz")  
 Jarid Waltz  
-![alt text](/assets/img/Andy.jpg "Title")  
+![Andy Stevens]({{ site.url }}/assets/img/Andy.jpg "Andy Stevens")  
 Andy Stevens  
-![alt text](/assets/img/Paolo.jpg "Title")  
+![Paolo Mauro]({{ site.url }}/assets/img/Paolo.jpg "Paolo Mauro")  
 Paolo Mauro  
-![alt text](/assets/img/Chris.jpg "Title")  
+![Chris Damitz]({{ site.url }}/assets/img/Chris.jpg "Chris Damitz")  
 Chris Damitz
 
 ## Sponsors
-![alt text](/assets/img/Ryan.jpg "Title")  
+![Ryan West]({{ site.url }}/assets/img/Ryan.jpg "Ryan West")  
 Ryan West  
-![alt text](/assets/img/Leah.jpg "Title")  
+![Leah Reilman]({{ site.url }}/assets/img/Leah.jpg "Leah Reilman")  
 Leah Reilman
