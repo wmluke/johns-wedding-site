@@ -4,9 +4,9 @@ title: Registry
 permalink: /registry/
 ---
 
-Test.
+Macy's (add website & link icon)
 
-Test 2.
+Williams-Sonoma (add link & link icon)
 
-Sea enim accusamus cu, usu ea iusto persecuti. Mei minim persius ne, eum ex inani aperiri euismod. Has eu oratio eruditi saperet, suas impedit laboramus ex duo. Facer oporteat ne vix, id nec aperiri efficiendi.
+REI (add link & link icon)
 
