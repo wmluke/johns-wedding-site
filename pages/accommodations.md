@@ -4,11 +4,13 @@ title: Accommodations
 permalink: /accommodations/
 ---
 
-FOO
+We have blocked off rooms at Rancho Bernardo Inn, where the ceremony and reception will be held.  Additionally, we have blocked rooms at nearby Courtyard and Hilton hotels.
 
-Lorem ipsum dolor sit amet, at nibh dicta lobortis sea, sea indoctum consequat eu. Ne dolore persequeris qui, ad eam illud aeque abhorreant. Nam eu quaeque maluisset, at duo regione antiopam. Purto ubique delenit eum te, at cum porro laudem iuvaret.
+Rancho Bernardo Inn (add website, address, & phone #)
 
-Illud illum te est, at mei vocent nostrum corrumpit. Eum no reque deserunt. Quod deterruisset eu qui, ea tale delicata eum. An per dico oportere iudicabit, nec te nihil impetus.
+Courtyard Marriott (add website, address, & phone #)
 
-Sea enim accusamus cu, usu ea iusto persecuti. Mei minim persius ne, eum ex inani aperiri euismod. Has eu oratio eruditi saperet, suas impedit laboramus ex duo. Facer oporteat ne vix, id nec aperiri efficiendi.
+Hilton (add website, address, & phone #)
+
+Possibly also add a map to this page 
 
