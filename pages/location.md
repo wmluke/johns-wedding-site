@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Wedding Details
-permalink: /wedding-details/
+title: Location
+permalink: /location/
 ---
 
 ## Wedding Ceremony and Reception Location
@@ -14,8 +14,11 @@ San Diego, CA 92128
 
 Rancho Bernardo Inn is located 29 miles north of the San Diego Airport.  
 
-Complimentary valet parking will be provided at Rancho Bernardo Inn for the night of the wedding.
-
+Complimentary valet parking will be provided at Rancho Bernardo Inn for the night of the wedding.  
+  
+  
+  
+  
 ## Things to Do
 
 There are plenty of fun activities in and around beautiful San Diego. Here are just a few.  
