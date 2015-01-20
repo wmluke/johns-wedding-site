@@ -4,9 +4,10 @@ title: Registry
 permalink: /registry/
 ---
 
-Macy's (add website & link icon)
+We have registered at the following retail stores:  
 
-Williams-Sonoma (add link & link icon)
-
-REI (add link & link icon)
-
+Macy's - [View Registry](http://www1.macys.com/registry/wedding/guest/?registryId=6270622)  
+  
+Williams-Sonoma - [View Registry](https://secure.williams-sonoma.com/registry/7c6sl6mtfq/registry-list.html)  
+  
+REI - [View Registry](http://www.rei.com/GiftRegistryDetails/GR111188765)  
