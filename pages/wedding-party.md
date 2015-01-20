@@ -10,6 +10,7 @@ Melissa West - Maid of Honor
 ![Dana Chehansky]({{ site.baseurl }}/assets/wedding_party/Dana.jpg "Dana Chehansky")  
 Dana Chehansky  
 ![The Girls_Old]({{ site.baseurl }}/assets/wedding_party/The Girls_Old.jpg "The Girls_Old")  
+![The Girls_New]({{ site.baseurl }}/assets/wedding_party/The Girls_New.jpg "The Girls_New")  
 Audra O'Connor  
 Hais Lindeman   
 Shirin Delalat  
@@ -23,9 +24,8 @@ Rachel Murray
 Luke Bunselmeyer - Best Man  
 ![Andrew Viray]({{ site.baseurl }}/assets/wedding_party/Andrew.jpg "Andrew Viray")  
 Andrew Viray  
-![Garrett Elwood]({{ site.baseurl }}/assets/wedding_party/Garrett.jpg "Garrett Elwood")  
+![Garrett and Jarid]({{ site.baseurl }}/assets/wedding_party/Garrett and Jarid.jpg "Garrett and Jarid")  
 Garrett Elwood  
-![Jarid Waltz]({{ site.baseurl }}/assets/wedding_party/Jarid.jpg "Jarid Waltz")  
 Jarid Waltz  
 ![Andy Stevens]({{ site.baseurl }}/assets/wedding_party/Andy.jpg "Andy Stevens")  
 Andy Stevens  
