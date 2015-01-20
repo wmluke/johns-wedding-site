@@ -5,10 +5,12 @@ permalink: /wedding-party/
 ---
 
 ## Bridesmaids
-![Melissa West - Maid of Honor]({{ site.baseurl }}/assets/wedding_party/Melissa.jpg "Melissa West - Maid of Honor")  
-Melissa West - Maid of Honor  
+![Melissa West - Maid of Honor]({{ site.baseurl }}/assets/wedding_party/Melissa.jpg "Melissa West - Maid of Honor") 
+
+### Melissa West - Maid of Honor  
 ![Dana Chehansky]({{ site.baseurl }}/assets/wedding_party/Dana.jpg "Dana Chehansky")  
-Dana Chehansky  
+
+### Dana Chehansky  
 ![The Girls_Old]({{ site.baseurl }}/assets/wedding_party/The Girls_Old.jpg "The Girls_Old")  
 ![The Girls_New]({{ site.baseurl }}/assets/wedding_party/The Girls_New.jpg "The Girls_New")  
 Audra O'Connor  
@@ -32,7 +34,7 @@ Andy Stevens
 ![Paolo Mauro]({{ site.baseurl }}/assets/wedding_party/Paolo.jpg "Paolo Mauro")  
 Paolo Mauro  
 ![Chris Damitz]({{ site.baseurl }}/assets/wedding_party/Chris.jpg "Chris Damitz")  
-Chris Damitz
+Chris Damitz  
 
 ## Sponsors
 ![Ryan West]({{ site.baseurl }}/assets/wedding_party/Ryan.jpg "Ryan West")  
