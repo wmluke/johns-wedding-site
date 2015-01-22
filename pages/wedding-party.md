@@ -6,44 +6,47 @@ permalink: /wedding-party/
 
 ## Bridesmaids  
 
-![Melissa West - Maid of Honor]({{ site.baseurl }}/assets/wedding_party/melissa.jpg "Melissa West - Maid of Honor")
-
 ### Melissa West - Maid of Honor
-![Dana Chehansky]({{ site.baseurl }}/assets/wedding_party/Dana.jpg "Dana Chehansky")  
+![Melissa West - Maid of Honor]({{ site.baseurl }}/assets/wedding_party/melissa-345x259.jpg "Melissa West - Maid of Honor")
 
 ### Dana Chehansky
+![Dana Chehansky]({{ site.baseurl }}/assets/wedding_party/dana-345x230.jpg "Dana Chehansky")
 
-![The Girls_New]({{ site.baseurl }}/assets/wedding_party/the_girls_new.jpg "The Girls_New")  
+### Audra O'Connor, Hais Lindeman, & Shirin Delalat
+![The Girls_New]({{ site.baseurl }}/assets/wedding_party/the-girls-new-345x230.jpg "The Girls_New")
 
-### Audra O'Connor
+### Jennifer Coleman
+![Jennifer Coleman]({{ site.baseurl }}/assets/wedding_party/jennifer-345x259.jpg "Jennifer Coleman")
 
-### Hais Lindeman
-
-### Shirin Delalat  
-  
-![Jennifer Coleman]({{ site.baseurl }}/assets/wedding_party/jennifer.jpg "Jennifer Coleman")  
-### Jennifer Coleman  
-
-![Rachel Murray]({{ site.baseurl }}/assets/wedding_party/rachel.jpg "Rachel Murray")  
-### Rachel Murray  
+### Rachel Murray
+![Rachel Murray]({{ site.baseurl }}/assets/wedding_party/rachel-345x230.jpg "Rachel Murray")
 
 ## Groomsmen
-![Luke Bunselmeyer - Best Man]({{ site.baseurl }}/assets/wedding_party/luke.jpg "Luke Bunselmeyer - Best Man")  
-Luke Bunselmeyer - Best Man  
-![Andrew Viray]({{ site.baseurl }}/assets/wedding_party/andrew.jpg "Andrew Viray")  
-Andrew Viray  
-![Garrett and Jarid]({{ site.baseurl }}/assets/wedding_party/garrett_and_jarid.jpg "Garrett and Jarid")  
-Garrett Elwood  
-Jarid Waltz  
-![Andy Stevens]({{ site.baseurl }}/assets/wedding_party/andy.jpg "Andy Stevens")  
-Andy Stevens  
-![Paolo Mauro]({{ site.baseurl }}/assets/wedding_party/paolo.jpg "Paolo Mauro")  
-Paolo Mauro  
-![Chris Damitz]({{ site.baseurl }}/assets/wedding_party/chris.jpg "Chris Damitz")  
-Chris Damitz  
+
+### Luke Bunselmeyer - Best Man
+![Luke Bunselmeyer - Best Man]({{ site.baseurl }}/assets/wedding_party/luke-345x230.jpg "Luke Bunselmeyer - Best Man")
+
+### Andrew Viray
+![Andrew Viray]({{ site.baseurl }}/assets/wedding_party/andrew-345x230.jpg "Andrew Viray")
+
+### Garrett Elwood & Jarid Waltz
+![Garrett and Jarid]({{ site.baseurl }}/assets/wedding_party/garrett-and-jarid-345x230.jpg "Garrett and Jarid")
+
+### Andy Stevens
+![Andy Stevens]({{ site.baseurl }}/assets/wedding_party/andy-345x230.jpg "Andy Stevens")
+
+### Paolo Mauro
+![Paolo Mauro]({{ site.baseurl }}/assets/wedding_party/paolo-345x230.jpg "Paolo Mauro")
+
+### Chris Damitz
+![Chris Damitz]({{ site.baseurl }}/assets/wedding_party/chris-345x230.jpg "Chris Damitz")
+
 
 ## Sponsors
-![Ryan West]({{ site.baseurl }}/assets/wedding_party/ryan.jpg "Ryan West")  
-Ryan West  
-![Leah Reilman]({{ site.baseurl }}/assets/wedding_party/leah.jpg "Leah Reilman")  
-Leah Reilman
+
+### Ryan West
+![Ryan West]({{ site.baseurl }}/assets/wedding_party/ryan-345x230.jpg "Ryan West")
+
+### Leah Reilman
+![Leah Reilman]({{ site.baseurl }}/assets/wedding_party/leah-345x320.jpg "Leah Reilman")
+

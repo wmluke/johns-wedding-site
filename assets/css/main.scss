@@ -121,3 +121,23 @@ h6 a:hover {
   padding: 0;
   margin: 0;
 }
+
+.page-wedding-party {
+  img {
+    display: block;
+    margin: 15px 0;
+
+    border: 10px solid #ffffff;
+    background: #fff;
+    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    width: auto;
+
+    height: auto;
+    max-width: 100%;
+
+    vertical-align: middle;
+  }
+}
+
