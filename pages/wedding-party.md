@@ -12,7 +12,7 @@ permalink: /wedding-party/
 ### Dana Chehansky
 ![Dana Chehansky]({{ site.baseurl }}/assets/wedding_party/dana-345x230.jpg "Dana Chehansky")
 
-### Audra O'Connor, Hais Lindeman, & Shirin Delalat
+### Audra O'Connor, Shirin Delalat, & Hais Lindeman
 ![The Girls_New]({{ site.baseurl }}/assets/wedding_party/the-girls-new-345x230.jpg "The Girls_New")
 
 ### Jennifer Coleman
