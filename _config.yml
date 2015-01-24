@@ -5,6 +5,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Lindsay West & John Bunselmeyer Get Married!
 baseurl: "/johns-wedding-site" # the subpath of your site, e.g. /blog/
 url: "http://lindsayandjohngetmarried.com" # the base hostname & protocol for your site
+cdn: "http://d238odvbt7hlon.cloudfront.net"
 twitter_username: wmluke
 github_username:  wmluke
 
