@@ -6,7 +6,9 @@ permalink: /location/
 
 ## Wedding Ceremony and Reception Location
 
-Rancho Bernardo Inn  
+### Rancho Bernardo Inn
+![Rancho Bernardo Inn]({{ site.cdn }}{{ site.baseurl }}/assets/img/rancho-bernardo-350x220.jpg "Rancho Bernardo Inn")
+
 17550 Bernardo Oaks Drive  
 San Diego, CA 92128  
 (855) 574-5356  
