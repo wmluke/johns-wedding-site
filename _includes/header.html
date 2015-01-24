@@ -32,7 +32,7 @@
     </div>
 </div>
 <div id="banner">
-    <img src='{{ "/assets/img/banner-1300x586.jpg" | prepend: site.baseurl }}' class="img-responsive" alt=""/>
+    <img src='{{ "/assets/img/banner-1300x586.jpg" | prepend: site.baseurl | prepend: site.cdn }}' class="img-responsive" alt=""/>
 
     <div class="banner_line"></div>
     <div id="badge_wrap">
@@ -44,11 +44,11 @@
                             <div>
                                 <span class="badge_small badge_one">Lindsay &amp; John</span>
                                 <br/>
-                                <img src='{{ "/assets/img/heart_line.png" | prepend: site.baseurl }}' class="img-responsive heart_line" alt=""/>
+                                <img src='{{ "/assets/img/heart_line.png" | prepend: site.baseurl | prepend: site.cdn }}' class="img-responsive heart_line" alt=""/>
                                 <br/>
                                 <span class="badge_large badge_two">{{ site.data.wedding.date }}</span>
                                 <br/>
-                                <img src='{{ "/assets/img/heart_line.png" | prepend: site.baseurl }}' class="img-responsive heart_line" alt=""/>
+                                <img src='{{ "/assets/img/heart_line.png" | prepend: site.baseurl | prepend: site.cdn }}' class="img-responsive heart_line" alt=""/>
                                 <br/>
                                 <span class="badge_small badge_three">San Diego, CA</span></div>
                         </div>
