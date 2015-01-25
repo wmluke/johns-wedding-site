@@ -48,5 +48,5 @@ permalink: /wedding-party/
 ![Ryan West]({{ site.cdn }}{{ site.baseurl }}/assets/wedding_party/ryan-345x230.jpg "Ryan West")
 
 ### Leah Reilman
-![Leah Reilman]({{ site.cdn }}     {{ site.baseurl }}/assets/wedding_party/leah-345x320.jpg "Leah Reilman")
+![Leah Reilman]({{ site.cdn }}{{ site.baseurl }}/assets/wedding_party/leah-345x320.jpg "Leah Reilman")
 
