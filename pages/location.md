@@ -25,6 +25,9 @@ There are plenty of fun activities in and around beautiful San Diego. Here are j
 ### Beaches (close ones include Torrey Pines, Del Mar, and La Jolla)
 [San Diego Beaches](http://www.sandiego.org/what-to-do/beaches.aspx)  
 
+### Golfing
+[Championship 18-Hole Golf Course at Rancho Bernardo Inn](http://www.ranchobernardoinn.com/golf/)  
+
 ### San Diego Zoo
 [zoo.sandiegozoo.org](http://zoo.sandiegozoo.org/)  
 
